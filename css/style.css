@@ -1,0 +1,44 @@
+/* Main content section styling */
+#main-content {
+  background-color: #808080;
+  min-height: 1000px;
+  padding: 15px;
+  color: #000000;
+}
+
+.navbar, .navbar #collapsable-nav {
+  background-color: #808080;
+  color: #000000;
+}
+.navbar .nav li a, .navbar .navbar-header a{
+  color: #000000;
+}
+/* Navbar brand styling */
+.navbar-header .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-header {
+  background-color: #808080;
+}
+
+/* Dropdown menu background */
+.navbar-collapse {
+  background-color: #f8f8f8;
+}
+
+.text-center {
+  color: #000000;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: none;
+  }
+  
+}
+@media (max-width: 767px) {
+  .navbar #collapsable-nav {
+  background-color: #f8f8f8;
+}
+}
